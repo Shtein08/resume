@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Формы</title>
+</head>
+<body>
+    <h1>Формы</h1>
+
+    <form>
+       <div>   
+        <label for="text2">Text</label>
+        <input type="text" id="text2" value="Удали это">
+       </div>
+
+       <div>
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Вводи номер карты">
+       </div>
+
+       <div>
+        <label for="pass">Пароль</label>
+        <input type="password" id="pass">
+       </div>
+
+       <div>
+        <label for="num">Число</label>
+        <input type="number" id="num" value="50" readonly>
+       </div>
+
+       <div>
+        <label for="range">Диопозон</label>
+        <input type="range" id="range" min="0" max="10" step="1">
+       </div>
+
+       <div>
+        <label for="date">дата</label>
+        <input type="date" id="date">
+       </div>
+
+       <div>
+        <label for="clr">Цвет</label>
+        <input type="color" id="clr">
+       </div>
+
+       <div>
+
+        <label for="message">Сообщение</label>
+        <br>
+        <textarea id="message" cols="2" rows="4"></textarea>
+       </div>
+
+       <div>
+        <label for="pers">Любимый персонаж</label>
+        <br>
+        <select name="" id="pers">
+            <option value="Хори Кёко">Хори Кёко</option>
+            <option value="Миямура Идзуми" selected>Миямура Идзуми</option>
+            <option value="Исикава Тору">Исикава Тору</option>
+            <option value="Иура Шу">Иура Шу</option>
+            <option value="Ёсикава Юки">Ёсикава Юки</option>
+            <option value="Сенгоку Какеру">Сенгоку Какеру</option>
+        </select>
+       </div>
+
+       <div>   
+        <label>Количество работ</label> <br>
+        <input type="radio" name="work"> 1 <br>
+        <input type="radio" name="work"> 2 <br>
+        <input type="radio" name="work"> 3 <br>
+        <input type="radio" name="work"> 4 <br>
+        <input type="radio" name="work"> 5+ <br>
+       </div>
+
+       <div>   
+        <label>Количество работ</label> <br>
+        <input type="checkbox" name="food"> 1 <br>
+        <input type="checkbox" name="food"> 2 <br>
+        <input type="checkbox" name="food"> 3 <br>
+        <input type="checkbox" name="food"> 4 <br>
+        <input type="checkbox" name="food"> 5+ <br>
+       </div>
+       
+       <!-- <input type="submit" value="Оправит форму"> -->
+       <button type="submit">Оправит форму</button><br>
+       
+       <label for="site-search">Search the site:</label>
+<input type="search" id="site-search" name="q" />
+
+<button>Search</button><br>
+
+<label for="avatar">Choose a profile picture:</label>
+
+<input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg" /> <br>
+<!-- List > Datalist -->
+<label for="ice-cream-choice">Choose a flavor:</label>
+<input list="ice-cream-flavors" id="ice-cream-choice" name="ice-cream-choice" />
+
+<datalist id="ice-cream-flavors">
+  <option value="Chocolate"></option>
+  <option value="Coconut"></option>
+  <option value="Mint"></option>
+  <option value="Strawberry"></option>
+  <option value="Vanilla"></option>
+</datalist>
+
+
+    </form>
+
+</body>
+</html>
