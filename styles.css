@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Roboto:wght@300&family=Rubik+Broken+Fax&family=Rubik+Doodle+Shadow&display=swap');
+
+#photo {
+    block-size: 250px;
+    border: 2px solid black
+}
+
+
+body {
+    background: #edd7b3;
+    
+}
+
+.block1 span {
+    font-size: 80%;
+}
+
+.block1 p {
+    font-size: 20px;
+}
+.block1 {
+    background: rgb(203, 179, 114);
+}
+
+
+.card {
+    font-family: Light 300, sans-serif;
+    padding-left: 10px;
+    padding-bottom: 1px;
+    padding-top: 1px;
+    margin-bottom: 10px;
+    border-radius: 25px;
+    border-bottom: 4px solid #a67a32;
+   
+}
+
+.block2 {
+    background: rgb(203, 179, 114);
+}
+.footer{
+    background: rgb(171, 142, 34);
+}
+
+.contaner{
+    width: 800px;
+    margin: auto;
+}
+#hr {
+    block-size: 2px;
+    
+}
